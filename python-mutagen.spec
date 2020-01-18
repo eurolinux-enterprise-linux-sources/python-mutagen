@@ -2,7 +2,7 @@
 
 Name:           python-%{realname}
 Version:        1.20
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Mutagen is a Python module to handle audio metadata
 
 Group:          Development/Languages
@@ -46,6 +46,9 @@ sed -i 's/\r//' TUTORIAL
 %{python_sitelib}/%{realname}-%{version}-*.egg-info
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.20-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.20-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
